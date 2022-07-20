@@ -13,7 +13,7 @@ const AvailableMeals = () => {
   useEffect(() => {
     const fetchMeals = async () => {
       const response = await fetch(
-        "http://myjson.dit.upm.es/api/bins/hxwu"
+        "https://myjson.dit.upm.es/api/bins/hxwu"
       );
 
       if (!response.ok) throw new Error("Something went wrong!");

@@ -28,7 +28,7 @@ const Cart = props => {
   const handleSubmitOrder = async userData => {
     setIsSubmitting(true);
     await fetch(
-      'http://myjson.dit.upm.es/api/bins/hxwu',
+      'https://myjson.dit.upm.es/api/bins/hxwu',
       {
         method: 'POST',
         body: JSON.stringify({
